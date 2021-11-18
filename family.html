@@ -1,0 +1,120 @@
+<!-- 
+Francie Huebner
+Prof Tarimo
+COM 214
+March 11, 2021
+
+This html file creates the Family page of my website. It has a navigation bar at the top,
+an alert thanking the user, four cards of my family members and their pictures, a button that
+redirects to my dog's instagram page, and a footer at the bottom of the page. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> Francie Huebner </title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
+	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
+	<link rel="stylesheet" href="styles.css" >
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+	<header>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-light" style="background-color: #FCDEDE;">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/profile_image.jpeg" width="30" height="40" class="d-inline-block align-top" alt="Image of Francie">
+				Frances Huebner
+			</a>
+
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link active" id="button1" href="index.html" style="background-color: #9C7F7F;"><i class="fas fa-home"></i> Home Page </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html" style="color: #9C7F7F;"><i class="fas fa-info-circle"></i> About Me </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cooking.html" style="color: #9C7F7F;"><i class="fas fa-utensils"></i></i> Cooking </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="makeup.html" style="color: #9C7F7F;"><i class="fas fa-asterisk"></i></i> Makeup </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="family.html" style="color: #9C7F7F;"><i class="fas fa-poo"></i></i> Family </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="familyExtended.html" style="color: #9C7F7F;"><i class="fas fa-plus"></i></i></i> FamilyExtended </a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Four cards with images of family -->
+	<div class="container">
+		<div class="alert alert-secondary" role="alert">
+			<h4 class="alert-heading">Here's my family!</h4>
+			<p>Thank you so much for taking the time to look through my website! I hope you have a great day!</p>
+		</div>
+		<h1 class="display-4">Francie's Family <i class="fas fa-rainbow"></i></h1>
+		<div class="row">
+			<div class="col col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/kaki.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Kaki</h5>
+						<p class="card-text">Kaki is Francie's twin sister. She attends W&L University in Virginia and is majoring in Global Politics.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/tracy.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Tracy</h5>
+						<p class="card-text">Tracy is Francie's mother. She works for WestEd as the head of the center for the future of teacing and learning.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/christian.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Christian</h5>
+						<p class="card-text">Christian is Francie's father. He is an interior designer and owns his own business.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/brioche.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Brioche</h5>
+						<p class="card-text">This is Francie's dog Brioche! She is a cavalier king charles spaniel and is very snuggly!</p>
+						<a href="https://www.instagram.com/briochedubeurre/" class="btn btn-primary"><i class="fab fa-instagram"></i> Brioche's Instagram Page</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer text-center">
+		<div class="container">
+			<span class="text-muted">Thanks for visiting my page. Come Again Soon.</span> <i class="far fa-copyright"></i>
+		</div>
+	</footer>
+
+	<script src="jquery.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
+	<script src="javascript.js"></script>
+
+</body>
+
+</html>
+
